@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="2.3" version="4">
+  <OBJECT>
+    <ID name="2.3" mc="Standard.Package" uid="331969cf-3c0c-4786-840a-92ace7c3d5b6"/>
+    <PID name="2.3" mc="Standard.Project" uid="7870c525-0bca-4fe0-b888-6c9b3a5feb4d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[2.3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="e57a484a-7b80-4a7e-90cb-7f7d97958524"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="External Members" mc="Standard.Class" uid="38eb94a5-1e63-48a7-97ef-a48aed2c05dd"/>
+        <COMPID name="Library (BookFinder)" mc="Standard.Class" uid="041c9b90-29e0-49ce-97e9-b4b5e8a64595"/>
+        <COMPID name="Normal members" mc="Standard.Class" uid="93d52d31-35a2-4a0d-a664-535ac47df772"/>
+        <COMPID name="Membership" mc="Standard.Class" uid="f5f8457d-ccc6-4d48-9377-e37d7ce739b7"/>
+        <COMPID name="Member" mc="Standard.Class" uid="811b0b39-4464-48a2-8146-ec74fd438626"/>
+        <COMPID name="Normal" mc="Standard.Class" uid="1c4e8df2-646b-46a9-ba76-59b7af3dedda"/>
+        <COMPID name="External" mc="Standard.Class" uid="78839b7c-9b76-43f2-8540-1304be744476"/>
+        <COMPID name="Customer" mc="Standard.Class" uid="c196e854-d3b2-4e8d-837e-06e5b9a6de56"/>
+        <COMPID name="Normal" mc="Standard.Class" uid="704f6aa1-cefe-482c-abb9-6a3aa31f18ff"/>
+        <COMPID name="External" mc="Standard.Class" uid="0b4f788b-9416-4e57-9f50-2df36bfd7854"/>
+        <COMPID name="Library" mc="Standard.Class" uid="f555766c-34a1-4157-aef5-8c3c95dcf86c"/>
+        <COMPID name="CD" mc="Standard.Class" uid="334f1376-b6d4-4bbd-90fa-f5abca133005"/>
+        <COMPID name="Reservation" mc="Standard.Class" uid="d908cbfe-ac22-40f8-bdf3-3a69edb64302"/>
+        <COMPID name="Rental" mc="Standard.Class" uid="597ac6d5-f0cd-4363-9ccd-8a1f79b43a6c"/>
+        <COMPID name="rPass" mc="Standard.Class" uid="cd55e3e3-efbc-40da-b4ee-a3dedb80855f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="fa72e6a1-f47f-498c-b4e1-6455cb5c7278"/>
+        <COMPID name="2.3 Class diagram" mc="Standard.ClassDiagram" uid="a0269b02-3ab4-460c-826b-25e1b0bc525a"/>
+        <COMPID name="Class diagram 2.3" mc="Standard.ClassDiagram" uid="4205715a-af28-4fc0-b2c4-b4eb1c85bfb1"/>
+        <COMPID name="Class diagram 2.4" mc="Standard.ClassDiagram" uid="4cfe4976-cf04-4265-8b8f-ff3c749cd1c4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

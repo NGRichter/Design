@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Week1" version="4">
+  <OBJECT>
+    <ID name="Week1" mc="Standard.AnalystProject" uid="ca455f2d-35f7-4886-8a22-00ca4bc884e4"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Week1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="Week1" mc="Standard.PropertyContainer" uid="1cc2918f-6fe5-4bd2-9f97-87c92f9085f1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

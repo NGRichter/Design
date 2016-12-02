@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Week 3" version="4">
+  <OBJECT>
+    <ID name="Week 3" mc="Standard.DiagramSet" uid="b4dd50ec-c8b9-4160-b716-170ad739f67d"/>
+    <PID name="Week 3" mc="Standard.Project" uid="e63fe3e2-f303-4c6f-bb7a-3dd89b6d8148"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Week 3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

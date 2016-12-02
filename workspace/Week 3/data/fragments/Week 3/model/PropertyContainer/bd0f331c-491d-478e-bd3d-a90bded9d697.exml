@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Week 3" version="4">
+  <OBJECT>
+    <ID name="Week 3" mc="Standard.PropertyContainer" uid="bd0f331c-491d-478e-bd3d-a90bded9d697"/>
+    <PID name="Week 3" mc="Standard.AnalystProject" uid="a94bac6b-907b-46a3-a7df-2f52a6e8f2d3"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Week 3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
