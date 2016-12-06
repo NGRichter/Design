@@ -16,6 +16,7 @@
       <COMP relation="OwnedBehavior">
         <COMPID name="State Machine 3.2" mc="Standard.StateMachine" uid="4b28bd4d-5dae-4b7e-b8c8-6c5d532235aa"/>
         <COMPID name="State Machine 3.1" mc="Standard.StateMachine" uid="d21bf6c1-19f7-4b70-b364-fd25f3053e53"/>
+        <COMPID name="State Machine 3.3" mc="Standard.StateMachine" uid="73b07257-c987-4e0f-a777-a84db411ff9d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="cd4ae0f0-df56-4815-8601-d3987ddf5724"/>
