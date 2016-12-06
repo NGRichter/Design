@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="activity leaving the car park" version="4">
+  <OBJECT>
+    <ID name="activity leaving the car park" mc="Standard.Package" uid="e37def8f-d67a-42b2-adde-feb2110cefe1"/>
+    <PID name="Activity Leaving the car park" mc="Standard.Project" uid="6a64433c-08da-4313-b866-b090b44375df"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[activity leaving the car park]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="e38d6305-a1f3-4aa2-a363-f86032c09b9a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="51dac317-64ab-44e1-86c9-da72a47a2a9b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="overview diagram" version="4">
+  <OBJECT>
+    <ID name="overview diagram" mc="Standard.ClassDiagram" uid="51dac317-64ab-44e1-86c9-da72a47a2a9b"/>
+    <PID name="activity leaving the car park" mc="Standard.Package" uid="e37def8f-d67a-42b2-adde-feb2110cefe1"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">393</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9tO4zAQ/RXL73VpyVKQQhE0qEIEWrUL0j6hSTx0DY5d2e4lf4/TpAstapSVEPuyT7bHc87czoQX60ySJRortDqnHXZEyUU/HCUvmDoiuDdR4vI5nlNtZizTHKXQjAuYGcgYcuG0YdaBE68MJWaonC3f6dZpmE0376h8U5LBizZPf4Ie0X44NnqOxuVEQeZjScj1wkXgwP89glxglYRaSEnb/bC9BXyCTl0uke6U0K0rwRb+lqXaICuxDfIbgE2BI98Gu167CT43jHLvKSokwbWLkhuf4+ZaXDg+w0K6vSLbZTl1hRuU4JD7PPZ6dleYyLKw+MwlWFtNgvzocEiPO73WSQBJKwiw0zo9Sc9aHHpdCHrQhbOkvtuezd0qvVIxJCj3Ak+dEWpG+9q3cilwRapuhO2NV20xWuKNGuhsrq1wfgwHqBtQDX4LyQ0WDLGwRQur4yAiFurVNne/mkUGVj6dGHI0u9I7rt2e7b7wEm+ZLBj8wuwQfs++/B3qn4hN8AMqiIYsvvx1PXm6uhzcDiejh/voa4TRYO0+jupdNB8kEPyXwHdK4Odo/NWzP/j1BmTBhfM=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[overview diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

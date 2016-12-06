@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project" version="4">
+  <OBJECT>
+    <ID name="project" mc="Standard.Package" uid="cd9ff1d9-f90f-46b9-be25-f7f9eae992a6"/>
+    <PID name="Project" mc="Standard.Project" uid="04512320-9e46-4acd-868a-960379aa2e5c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="aa215acb-0a81-45b9-afad-b9ad907b4d5c"/>
+        <COMPID name="Activity1" mc="Standard.Activity" uid="3ab72504-522b-40a4-b1a8-1b184fe4c10b"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Member" mc="Standard.Class" uid="811f2688-7da0-4e3c-a8d8-064631ca9173"/>
+        <COMPID name="Reservation" mc="Standard.Class" uid="78165393-0af9-4395-9ffb-ee5e21b26118"/>
+        <COMPID name="CD" mc="Standard.Class" uid="74ae21be-80c8-445d-81ea-9d795203f189"/>
+        <COMPID name="Rental" mc="Standard.Class" uid="76d03b59-5caf-4ebd-ac95-fa0220e0b1cb"/>
+        <COMPID name="Customer" mc="Standard.Class" uid="e0366bdc-7833-48d6-b234-1e204df2d340"/>
+        <COMPID name="Package" mc="Standard.Package" uid="3e396f52-7ba9-472e-8af6-40a474574fba"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="4e8b0a52-563e-46f8-b602-3f5d1a8782cc"/>
+        <COMPID name="D-2.1" mc="Standard.ClassDiagram" uid="e355ebc1-0fb7-48b9-918d-0e0822061b58"/>
+        <COMPID name="D-2.2" mc="Standard.ClassDiagram" uid="696d5601-9810-46bb-8b2a-a38e9e6f0aed"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

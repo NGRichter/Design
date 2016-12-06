@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Leaving the car park" version="4">
+  <OBJECT>
+    <ID name="Activity Leaving the car park" mc="Standard.DiagramSet" uid="56cbd853-019a-436b-a430-9906fc0afcf4"/>
+    <PID name="Activity Leaving the car park" mc="Standard.Project" uid="6a64433c-08da-4313-b866-b090b44375df"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Activity Leaving the car park]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
