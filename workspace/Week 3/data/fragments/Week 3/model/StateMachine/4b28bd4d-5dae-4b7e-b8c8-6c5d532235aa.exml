@@ -228,6 +228,25 @@
                         </COMP>
                       </DEPENDENCIES>
                     </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="9ab07b9e-e97d-425f-8b1f-96d5cb7ae458"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Not Reserved / Present / Set Apart" mc="Standard.State" uid="bc96e673-f62b-4ebb-a84c-8756542b049e"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
                   </COMP>
                 </DEPENDENCIES>
               </OBJECT>
@@ -322,6 +341,55 @@
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="2f847160-508d-4e43-a26d-77032db21474"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Not Reserved / Present / Set Apart" mc="Standard.State" uid="bc96e673-f62b-4ebb-a84c-8756542b049e"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Not Reserved / Present / Set Apart]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="aad2b740-0d98-4882-84eb-17874a79fce5"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="14fe679f-181c-409e-9835-e8d167eafe40"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Standard.Transition" uid="86f8154a-fc83-4c70-b85a-2c419274fbc8"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
