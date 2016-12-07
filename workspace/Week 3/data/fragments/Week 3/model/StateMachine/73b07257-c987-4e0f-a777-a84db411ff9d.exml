@@ -1,0 +1,850 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine 3.3" version="4">
+  <OBJECT>
+    <ID name="State Machine 3.3" mc="Standard.StateMachine" uid="73b07257-c987-4e0f-a777-a84db411ff9d"/>
+    <PID name="week 3" mc="Standard.Package" uid="822fb441-7b3b-4e9b-b857-747d6b0051c7"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[State Machine 3.3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Standard.Region" uid="090d5dcb-c84c-4e71-9053-588fbcd4566b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="New" mc="Standard.State" uid="f84f4c42-dd83-4cac-9012-1bdcef4c817c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[New]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OwnedRegion">
+                    <OBJECT>
+                      <ID name="Region" mc="Standard.Region" uid="767ab976-27cc-442e-85c3-7fd5445406dc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Region]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Sub">
+                          <OBJECT>
+                            <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="a1118246-824c-4c8f-a016-4b7be8d93153"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Not reserved / Present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="e50ed03d-2a2c-4523-94ff-de5124d7bb56"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is rented]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="7e3bed6a-b18f-48a1-8f4c-12115fb547e3"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="b157f421-e26c-46b0-a0ee-b7e95ce3c366"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="fefb51b9-f58b-4375-a00c-c702a9c35d58"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="c7b838d2-86dc-4b24-9862-a591a0377f64"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Reserved / Not present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="bb52c769-58ef-4270-a7ac-777731a9c08f"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is returned]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="fefb51b9-f58b-4375-a00c-c702a9c35d58"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition2" mc="Standard.Transition" uid="d5f21677-416d-49a1-b9b3-8e4884e88fbb"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition2]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="c7b838d2-86dc-4b24-9862-a591a0377f64"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="7e3bed6a-b18f-48a1-8f4c-12115fb547e3"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Not reserved / Not present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="45798b8d-0f63-4fb5-94a5-6d7e140744b1"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is returned]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="a1118246-824c-4c8f-a016-4b7be8d93153"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="cecdc1af-bdb4-43f8-a3dd-0a06d2a60c26"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="c7b838d2-86dc-4b24-9862-a591a0377f64"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="d558aa5c-7216-4b5c-a860-3ae51b977d9d"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Reserved / Present / Set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="8393f731-40ba-4c50-82e9-c696a61a2099"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is rented (multiplce reservations)]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="c7b838d2-86dc-4b24-9862-a591a0377f64"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition2" mc="Standard.Transition" uid="bb129b6b-74a4-4509-9d8f-6e09a1916ce4"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is rented]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition2]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="7e3bed6a-b18f-48a1-8f4c-12115fb547e3"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition3" mc="Standard.Transition" uid="71fc7abc-417d-457c-9cd3-5308bdc54bbf"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition3]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="d558aa5c-7216-4b5c-a860-3ae51b977d9d"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                    <COMP relation="Descriptor">
+                                      <OBJECT>
+                                        <ID name="" mc="Standard.Note" uid="715d0cfe-47ed-4498-b320-71406d2d5822"/>
+                                        <ATTRIBUTES>
+                                          <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                                          <ATT name="MimeType"></ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <LINK relation="Model">
+                                            <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                                          </LINK>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="fefb51b9-f58b-4375-a00c-c702a9c35d58"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Reserved / Present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="79d5fc87-555a-47f1-8cd5-17d80f8c917c"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is set apart]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="d558aa5c-7216-4b5c-a860-3ae51b977d9d"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="27e0d67b-df79-4ee4-ba01-e280049e5e25"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="fefb51b9-f58b-4375-a00c-c702a9c35d58"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Initial State" mc="Standard.InitialPseudoState" uid="988f6391-5eb0-435a-a6df-907911c499bc"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="903878ec-2f3b-4fc6-9d4d-326e9bb0b0de"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="a1118246-824c-4c8f-a016-4b7be8d93153"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="d380fc1d-98ae-432a-89a2-c97e5c3aeb34"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[3 months have passed]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Not New" mc="Standard.State" uid="21778f73-8d34-4199-923e-d38b98b5547e"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Initial State1" mc="Standard.InitialPseudoState" uid="cccada9b-160e-42e7-b07c-a0b971155c3d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial State1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="d8a8f333-7e38-4960-8506-116b50f7455e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[CD registered]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="New" mc="Standard.State" uid="f84f4c42-dd83-4cac-9012-1bdcef4c817c"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Not New" mc="Standard.State" uid="21778f73-8d34-4199-923e-d38b98b5547e"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Not New]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OwnedRegion">
+                    <OBJECT>
+                      <ID name="Region" mc="Standard.Region" uid="71e27f89-7b5f-4343-a15e-cc0f8e07af80"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Region]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Sub">
+                          <OBJECT>
+                            <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="5c00266d-d6e2-45bc-a2ff-338f04740fbc"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Not reserved / Present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="dcf26da1-1cc5-46a8-a77d-34f3ff62aa78"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="dd6c3c3a-c2e6-4a93-bc32-eee2dc3acb22"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="eb16955f-476d-46fe-a427-9fe41be3bbb6"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is rented]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="04087b43-47b0-4ec0-b6ea-72f98b1eb28c"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="dd6c3c3a-c2e6-4a93-bc32-eee2dc3acb22"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Reserved / Present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="8b59c9ae-8165-45ed-8643-292261745098"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is set apart]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="4b44616a-0594-4c60-81c7-fef09f20aca3"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="a7183189-8eda-4046-89bd-225b251cc260"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="dd6c3c3a-c2e6-4a93-bc32-eee2dc3acb22"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="4b44616a-0594-4c60-81c7-fef09f20aca3"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Reserved / Present / Set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="5d8e6831-5f53-47c7-88e3-9e8a943dacff"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is rented (multiple reservations)]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="018f0591-83cf-4162-8b21-5ad8d8d4313f"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="77edf3b7-dbf0-4a36-96dd-d372be774131"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="4b44616a-0594-4c60-81c7-fef09f20aca3"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition2" mc="Standard.Transition" uid="7bb98f0f-c3f0-46b9-83d3-a9f9bc196dfd"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is rented]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition2]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="04087b43-47b0-4ec0-b6ea-72f98b1eb28c"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="04087b43-47b0-4ec0-b6ea-72f98b1eb28c"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Not reserved / Not present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="90dfda5b-42d8-4b70-8026-b8dbdf596b37"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is returned]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="5c00266d-d6e2-45bc-a2ff-338f04740fbc"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="ba6f0090-2bbb-4d0b-8c0f-d39d52b861ee"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="018f0591-83cf-4162-8b21-5ad8d8d4313f"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="018f0591-83cf-4162-8b21-5ad8d8d4313f"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Reserved / Not present / Not set apart]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="01d3173e-6c74-469f-bafd-5a507095e45f"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is reserved]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="018f0591-83cf-4162-8b21-5ad8d8d4313f"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                                <OBJECT>
+                                  <ID name="Transition1" mc="Standard.Transition" uid="08f4ccc4-a2c3-4e90-ba99-430710edb7e3"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"><![CDATA[CD is returned]]></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="dd6c3c3a-c2e6-4a93-bc32-eee2dc3acb22"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Initial State" mc="Standard.InitialPseudoState" uid="4e3fa0f8-7ae7-405d-ab0d-74888fe21ce5"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="29b372de-a36d-469c-84c9-8511f74d0b4b"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="5c00266d-d6e2-45bc-a2ff-338f04740fbc"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Initial State1" mc="Standard.InitialPseudoState" uid="cf8b181e-cdac-4e44-9f6b-d3fa6866115c"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Initial State1]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="58d40693-756a-4faf-883b-12c98325e243"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="04087b43-47b0-4ec0-b6ea-72f98b1eb28c"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Initial State2" mc="Standard.InitialPseudoState" uid="c6f738d1-b718-46e7-8bae-fdca53f2a005"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Initial State2]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="ce4a264c-3115-465c-b58b-fce27397bee2"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="dd6c3c3a-c2e6-4a93-bc32-eee2dc3acb22"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Initial State3" mc="Standard.InitialPseudoState" uid="f5309ab6-b632-475a-8de4-e4722cf6fdab"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Initial State3]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="cf803ca7-46f9-4dc5-be16-49bdcfe7ef45"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="4b44616a-0594-4c60-81c7-fef09f20aca3"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Initial State4" mc="Standard.InitialPseudoState" uid="416911c0-fa4e-484e-bc55-bec1ff0a63ec"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Initial State4]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="6524b1c8-7907-4e6d-96d3-ae55d6ed05d1"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="018f0591-83cf-4162-8b21-5ad8d8d4313f"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="State Machine State Machine diagram" mc="Standard.StateMachineDiagram" uid="bacfb21c-bff8-4320-ac79-787bafbe4e25"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

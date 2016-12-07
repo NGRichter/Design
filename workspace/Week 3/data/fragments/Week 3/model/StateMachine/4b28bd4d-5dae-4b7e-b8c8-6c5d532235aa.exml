@@ -41,7 +41,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Not reserved / Present" mc="Standard.State" uid="14fe679f-181c-409e-9835-e8d167eafe40"/>
+                            <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="14fe679f-181c-409e-9835-e8d167eafe40"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -50,9 +50,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Not reserved / Present" mc="Standard.State" uid="14fe679f-181c-409e-9835-e8d167eafe40"/>
+                <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="14fe679f-181c-409e-9835-e8d167eafe40"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[Not reserved / Present]]></ATT>
+                  <ATT name="Name"><![CDATA[Not reserved / Present / Not set apart]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -63,15 +63,15 @@
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
                         <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="PostCondition"><![CDATA[CD is rented]]></ATT>
+                        <ATT name="Guard"><![CDATA[CD is rented]]></ATT>
+                        <ATT name="PostCondition"></ATT>
                         <ATT name="Name"><![CDATA[Transition]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Not reserved / Not present" mc="Standard.State" uid="e161aabc-398c-4a7b-a736-a055acee54e2"/>
+                            <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="e161aabc-398c-4a7b-a736-a055acee54e2"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -90,7 +90,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Reserved / Present" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
+                            <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="2f847160-508d-4e43-a26d-77032db21474"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -99,9 +99,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Not reserved / Not present" mc="Standard.State" uid="e161aabc-398c-4a7b-a736-a055acee54e2"/>
+                <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="e161aabc-398c-4a7b-a736-a055acee54e2"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[Not reserved / Not present]]></ATT>
+                  <ATT name="Name"><![CDATA[Not reserved / Not present / Not set apart]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -112,15 +112,15 @@
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
                         <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="PostCondition"><![CDATA[CD is returned]]></ATT>
+                        <ATT name="Guard"><![CDATA[CD is returned]]></ATT>
+                        <ATT name="PostCondition"></ATT>
                         <ATT name="Name"><![CDATA[Transition]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Not reserved / Present" mc="Standard.State" uid="14fe679f-181c-409e-9835-e8d167eafe40"/>
+                            <ID name="Not reserved / Present / Not set apart" mc="Standard.State" uid="14fe679f-181c-409e-9835-e8d167eafe40"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -139,7 +139,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Reserved / Not present" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
+                            <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -148,9 +148,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Reserved / Present" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
+                <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[Reserved / Present]]></ATT>
+                  <ATT name="Name"><![CDATA[Reserved / Present / Set apart]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -169,7 +169,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Reserved / Not present" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
+                            <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -188,7 +188,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Not reserved / Not present" mc="Standard.State" uid="e161aabc-398c-4a7b-a736-a055acee54e2"/>
+                            <ID name="Not reserved / Not present / Not set apart" mc="Standard.State" uid="e161aabc-398c-4a7b-a736-a055acee54e2"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -207,7 +207,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Reserved / Present" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
+                            <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
                           </REFOBJ>
                         </LINK>
                         <COMP relation="Descriptor">
@@ -232,9 +232,9 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Reserved / Not present" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
+                <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[Reserved / Not present]]></ATT>
+                  <ATT name="Name"><![CDATA[Reserved / Not present / Not set apart]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -245,15 +245,15 @@
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
                         <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="PostCondition"><![CDATA[CD is returned]]></ATT>
+                        <ATT name="Guard"><![CDATA[CD is returned]]></ATT>
+                        <ATT name="PostCondition"></ATT>
                         <ATT name="Name"><![CDATA[Transition]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Reserved / Present" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
+                            <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="2f847160-508d-4e43-a26d-77032db21474"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -264,15 +264,64 @@
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
                         <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="PostCondition"><![CDATA[CD is reserved]]></ATT>
+                        <ATT name="Guard"><![CDATA[CD is reserved]]></ATT>
+                        <ATT name="PostCondition"></ATT>
                         <ATT name="Name"><![CDATA[Transition2]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Reserved / Not present" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
+                            <ID name="Reserved / Not present / Not set apart" mc="Standard.State" uid="1c14e822-4d37-464b-911f-830a62b237be"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="2f847160-508d-4e43-a26d-77032db21474"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Reserved / Present / Not set apart]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="c97e8364-df95-4a6c-abb8-de2bf746eb80"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[CD is set apart]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Reserved / Present / Set apart" mc="Standard.State" uid="ed2eaac1-a828-46f2-be88-cecb7c88ee42"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Standard.Transition" uid="ef1d429b-aa8d-4203-9108-f7f2550bc3b0"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[CD reserved]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Reserved / Present / Not set apart" mc="Standard.State" uid="2f847160-508d-4e43-a26d-77032db21474"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
