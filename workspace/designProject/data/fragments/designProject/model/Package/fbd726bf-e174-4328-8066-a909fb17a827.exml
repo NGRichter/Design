@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="designproject" version="4">
+  <OBJECT>
+    <ID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
+    <PID name="designProject" mc="Standard.Project" uid="edc12c00-78e4-4f8c-9cc7-ecfd7a41bd3f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[designproject]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="customer" mc="Standard.Actor" uid="9dbd09f0-de32-4a0e-a6ea-79c6f2cffe4b"/>
+        <COMPID name="insert ticket" mc="Standard.UseCase" uid="1147364a-85b1-4cfc-a5ed-89a91c845ccc"/>
+        <COMPID name="talk to attendant" mc="Standard.UseCase" uid="cb8cf344-b4ec-4636-9966-c3f12608daec"/>
+        <COMPID name="sensor" mc="Standard.Actor" uid="eef1fe68-011f-4179-8ea6-68ed95074cff"/>
+        <COMPID name="system" mc="Standard.Actor" uid="922306d3-7a81-495e-92c0-d63ee58d4ea0"/>
+        <COMPID name="attendant" mc="Standard.Actor" uid="c3b60e07-d962-45d1-9048-f7d4a8791b41"/>
+        <COMPID name="detect car" mc="Standard.UseCase" uid="0330caa4-2a28-42df-a07c-fc21410eff58"/>
+        <COMPID name="raise barrier" mc="Standard.UseCase" uid="5d4612df-571d-4690-9296-5ec7f90f1224"/>
+        <COMPID name="read ticket" mc="Standard.UseCase" uid="5320105c-b88b-441f-9629-b5d17dbe83e3"/>
+        <COMPID name="count cars" mc="Standard.UseCase" uid="27a65921-77f0-4452-8138-12141960ca4c"/>
+        <COMPID name="display if parking full or how many places are left" mc="Standard.UseCase" uid="352bd6b5-46cb-4ba4-8ac3-874229af5a85"/>
+        <COMPID name="activate intercom in the control pillar" mc="Standard.UseCase" uid="fbfd8a00-0541-43fd-b8a6-e1f2f25de7e2"/>
+        <COMPID name="attendant solve the problem when the customer is speaking through the intecom " mc="Standard.UseCase" uid="825895ac-ff3e-46ad-adfe-91fd94df0580"/>
+        <COMPID name="view details" mc="Standard.UseCase" uid="b55a3661-8946-4714-a3cb-dd045835f779"/>
+        <COMPID name="Actor" mc="Standard.Actor" uid="2a041391-6e40-4cff-9e1d-ad41758b4e6e"/>
+        <COMPID name="pay the ticket" mc="Standard.UseCase" uid="47536c96-d001-45f9-b9f2-8047cef50728"/>
+        <COMPID name="pay station" mc="Standard.Actor" uid="9f4d37d0-8bee-46f1-ad82-9d0f77f756d3"/>
+        <COMPID name="check ticket" mc="Standard.UseCase" uid="ba6d09d4-0aa9-4ddd-ba32-681564cc2763"/>
+        <COMPID name="eject invalid ticket" mc="Standard.UseCase" uid="e7811a4f-6d27-4044-9382-a933216ab3ff"/>
+        <COMPID name="gives change" mc="Standard.UseCase" uid="da778eab-b44e-4154-b4b9-5f7deda87547"/>
+        <COMPID name="attendant" mc="Standard.Actor" uid="250cacea-20b6-4895-923d-bb848d7a2f6e"/>
+        <COMPID name="check ticket" mc="Standard.UseCase" uid="f141c1fa-8be6-42af-a388-33df8a8808b2"/>
+        <COMPID name="calculate the charge manually" mc="Standard.UseCase" uid="864d6e68-4a2d-49ea-8cda-94e4b16af55c"/>
+        <COMPID name="ordinary customer" mc="Standard.Actor" uid="2db3965d-8301-4074-92e9-ea4423d39e04"/>
+        <COMPID name="season ticket holder" mc="Standard.Actor" uid="4af46431-9314-4bb4-8c03-490cfb32be56"/>
+        <COMPID name="takes ticket " mc="Standard.UseCase" uid="44b58a97-dc57-4b4a-bfb6-ce37bb40d118"/>
+        <COMPID name="inserts season ticket" mc="Standard.UseCase" uid="82a0cd8f-5eb4-4ab1-a8d4-00fce2d548a2"/>
+        <COMPID name="system" mc="Standard.Actor" uid="0487992f-a59f-4b69-8a70-52cc76904208"/>
+        <COMPID name="management" mc="Standard.Actor" uid="f6364a5f-aafd-49eb-89bc-5cbfa60428dd"/>
+        <COMPID name="issuing tickets" mc="Standard.UseCase" uid="394b6451-038c-4f06-8751-0ce871371868"/>
+        <COMPID name="handling payments" mc="Standard.UseCase" uid="55dfe48f-d795-4945-829d-5d0d0df3e84a"/>
+        <COMPID name="controls the barriers" mc="Standard.UseCase" uid="58b051cb-7a1b-40f0-ae3d-a5d0395330f5"/>
+        <COMPID name="controls exit &amp; payments" mc="Standard.UseCase" uid="87547f45-fbc9-4baa-aee1-050e6b8b6089"/>
+        <COMPID name="record problems" mc="Standard.UseCase" uid="77c9aae7-0d29-434f-8f5c-08c06ed1e5d5"/>
+        <COMPID name="record season tickets" mc="Standard.UseCase" uid="f82770ba-7141-4d7b-913e-2f951616506e"/>
+        <COMPID name="monitoring service level with security guards" mc="Standard.UseCase" uid="dd3aa1c9-6f29-4568-85d8-f89724cfdb54"/>
+        <COMPID name="Actor1" mc="Standard.Actor" uid="5fb688ef-7c50-4cbd-953f-50e43b12b837"/>
+        <COMPID name="visits car parks at regular intervals" mc="Standard.UseCase" uid="17a77639-f20a-4462-9849-be898571a2cf"/>
+        <COMPID name="card reader" mc="Standard.UseCase" uid="488f08c6-e88b-4535-9d95-92862b813c80"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="914146fe-581e-4d32-a2b2-c5b2dc35459b"/>
+        <COMPID name="designproject Use Case diagram" mc="Standard.UseCaseDiagram" uid="c7e59db4-35e5-4eb4-aa70-cfe1eaa67959"/>
+        <COMPID name="designproject Use Case diagram (1)" mc="Standard.UseCaseDiagram" uid="4a82a973-3af3-4f25-9175-006c949810b5"/>
+        <COMPID name="designproject Use Case diagram (2)" mc="Standard.UseCaseDiagram" uid="e857cf44-ffeb-4338-9a2f-36f9aa51ded7"/>
+        <COMPID name="designproject Use Case diagram (3)" mc="Standard.UseCaseDiagram" uid="00200280-a474-4a8e-8b5a-972562a5b1fc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
