@@ -15,4 +15,4 @@ and the name as (depending on your way):
 Git is a version control system (VCS) that is used for software development and other version control tasks.
 As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows.
 
-3.9 Rejected Non-fast-forward
+3.9 Both Rejected Non-fast-forward
