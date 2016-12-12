@@ -37,9 +37,9 @@
         <COMPID name="Employee" mc="Standard.Actor" uid="51957aff-c3da-419e-b233-749cd2417331"/>
         <COMPID name="Council Member" mc="Standard.Actor" uid="4c4b4eeb-4456-4d99-a671-1aa26085dbd4"/>
         <COMPID name="System" mc="Standard.Actor" uid="c4790d18-98fa-4e60-8ce3-cbcc03b0c09d"/>
-        <COMPID name="Make and modify some data" mc="Standard.UseCase" uid="ad623362-ceca-4304-9634-9f0d13b7bab7"/>
-        <COMPID name="See all data" mc="Standard.UseCase" uid="128b15f5-fdee-4138-a942-6057d3053a3c"/>
-        <COMPID name="Store and modify all data" mc="Standard.UseCase" uid="89f93877-cc0c-4866-9e2a-bdb50286d860"/>
+        <COMPID name="Modify data" mc="Standard.UseCase" uid="ad623362-ceca-4304-9634-9f0d13b7bab7"/>
+        <COMPID name="Access all data" mc="Standard.UseCase" uid="128b15f5-fdee-4138-a942-6057d3053a3c"/>
+        <COMPID name="Store and modify data" mc="Standard.UseCase" uid="89f93877-cc0c-4866-9e2a-bdb50286d860"/>
         <COMPID name="Help with ticket issues" mc="Standard.UseCase" uid="31d88c35-3aab-4876-8ca3-bed993b61582"/>
         <COMPID name="Show data" mc="Standard.UseCase" uid="020f2dc0-9d7f-4160-a9a7-6bc36dc6464b"/>
         <COMPID name="Calculate on data" mc="Standard.UseCase" uid="4e9da266-2aa7-4ad3-a918-1238d1d4f055"/>
@@ -48,7 +48,6 @@
         <COMPID name="Raise/Lower barrier" mc="Standard.UseCase" uid="b4dbd7e2-08de-44f3-8b0f-3098e2b52867"/>
         <COMPID name="Display text" mc="Standard.UseCase" uid="4ab6ae93-1999-4ccc-b115-defa5fede1df"/>
         <COMPID name="Print ticket" mc="Standard.UseCase" uid="aa17f0ed-4fb6-47e0-baa4-109a67344963"/>
-        <COMPID name="Store details" mc="Standard.UseCase" uid="8c29703c-8527-4495-b21a-2a1c78849b63"/>
         <COMPID name="Count cars" mc="Standard.UseCase" uid="d502c9aa-480b-46a0-a979-b0f1428e90c3"/>
         <COMPID name="Insert ticket" mc="Standard.UseCase" uid="1b0e2d1a-654e-4f4e-8f90-8cf49bba1ac3"/>
         <COMPID name="Display message" mc="Standard.UseCase" uid="6b59bfe4-e15e-4802-ae83-3823f2c355bb"/>
@@ -62,6 +61,7 @@
         <COMPID name="Control pillar" mc="Standard.Actor" uid="f49e3f56-d8c7-4bbe-94a8-ccf302e21abb"/>
         <COMPID name="System" mc="Standard.Actor" uid="0e26b9ff-51cb-40dd-8047-2bdcf7487670"/>
         <COMPID name="Record arrival and departure" mc="Standard.UseCase" uid="a9d234dd-d904-451c-8dff-05da2cce33e9"/>
+        <COMPID name="Store details" mc="Standard.UseCase" uid="f386a3a1-db74-47da-8553-5bde66ea82c1"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="914146fe-581e-4d32-a2b2-c5b2dc35459b"/>
