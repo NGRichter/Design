@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="check ticket" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Read ticket" version="4">
   <OBJECT>
-    <ID name="check ticket" mc="Standard.UseCase" uid="ba6d09d4-0aa9-4ddd-ba32-681564cc2763"/>
+    <ID name="Read ticket" mc="Standard.UseCase" uid="ba6d09d4-0aa9-4ddd-ba32-681564cc2763"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[check ticket]]></ATT>
+      <ATT name="Name"><![CDATA[Read ticket]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

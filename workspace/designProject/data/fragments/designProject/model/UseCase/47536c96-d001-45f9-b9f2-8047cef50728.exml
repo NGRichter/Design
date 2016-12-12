@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pay the ticket" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pay tariff" version="4">
   <OBJECT>
-    <ID name="pay the ticket" mc="Standard.UseCase" uid="47536c96-d001-45f9-b9f2-8047cef50728"/>
+    <ID name="Pay tariff" mc="Standard.UseCase" uid="47536c96-d001-45f9-b9f2-8047cef50728"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[pay the ticket]]></ATT>
+      <ATT name="Name"><![CDATA[Pay tariff]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="43ac7400-1c23-4fcc-bfc3-f76f1ee02c33"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="c1c55c9a-5ace-44be-81e5-0cbd6c1c7aff"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -33,11 +33,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Actor" mc="Standard.Actor" uid="2a041391-6e40-4cff-9e1d-ad41758b4e6e"/>
+              <ID name="Customer" mc="Standard.Actor" uid="2a041391-6e40-4cff-9e1d-ad41758b4e6e"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="851f72a7-66b6-498c-b4aa-5c0f87a2551f"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="39af23c7-ef6a-4835-91fc-a857c599fa3e"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -55,11 +55,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="43ac7400-1c23-4fcc-bfc3-f76f1ee02c33"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="c1c55c9a-5ace-44be-81e5-0cbd6c1c7aff"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="2cad0fbb-35a7-424b-89f5-36480c866f6c"/>
+                      <ID name="" mc="Standard.Association" uid="1b7fd878-999e-4fb3-9f5b-79794ca908b4"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -71,7 +71,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="2cad0fbb-35a7-424b-89f5-36480c866f6c"/>
+              <COMPID name="" mc="Standard.Association" uid="1b7fd878-999e-4fb3-9f5b-79794ca908b4"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

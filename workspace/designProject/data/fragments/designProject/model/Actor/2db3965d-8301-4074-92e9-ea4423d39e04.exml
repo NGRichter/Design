@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ordinary customer" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Customer" version="4">
   <OBJECT>
-    <ID name="ordinary customer" mc="Standard.Actor" uid="2db3965d-8301-4074-92e9-ea4423d39e04"/>
+    <ID name="Customer" mc="Standard.Actor" uid="2db3965d-8301-4074-92e9-ea4423d39e04"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ordinary customer]]></ATT>
+      <ATT name="Name"><![CDATA[Customer]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

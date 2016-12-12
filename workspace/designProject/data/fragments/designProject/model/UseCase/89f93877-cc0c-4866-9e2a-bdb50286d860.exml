@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="talk to attendant" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Store and modify data" version="4">
   <OBJECT>
-    <ID name="talk to attendant" mc="Standard.UseCase" uid="cb8cf344-b4ec-4636-9966-c3f12608daec"/>
+    <ID name="Store and modify data" mc="Standard.UseCase" uid="89f93877-cc0c-4866-9e2a-bdb50286d860"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,30 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[talk to attendant]]></ATT>
+      <ATT name="Name"><![CDATA[Store and modify data]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="Used">
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="0519dbca-587f-4fb6-a53e-c5947f74ed7a"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="insert ticket" mc="Standard.UseCase" uid="1147364a-85b1-4cfc-a5ed-89a91c845ccc"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="extend" mc="Standard.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="1d43c55c-2c68-4d3f-b093-f4657c62cf7f"/>
+          <ID name="" mc="Standard.Note" uid="9dce86ae-1bcc-427b-bc49-188fbcf195c7"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -46,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="3bed6f92-ef43-4ab9-a0a4-9c1a90975de4"/>
+          <ID name="" mc="Standard.Note" uid="d4f0afd8-6cbc-4774-bcf9-6de90208b101"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -60,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="3477433f-0bee-4ac2-96f9-e67dba8b60bf"/>
+          <ID name="" mc="Standard.Note" uid="49a9740e-36d8-4941-81fd-19543a85ec32"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -74,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="071459e3-0a9d-4c95-99eb-9e3247303beb"/>
+          <ID name="" mc="Standard.Note" uid="5316d273-235c-4696-9ebc-1215901bdc88"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -88,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="8544bbd0-8d0e-4c0b-80fa-6063ee5138bd"/>
+          <ID name="" mc="Standard.Note" uid="244ea2f0-bbfa-4d28-8fd7-bf1e33003a5d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -102,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="312f5b96-1c77-4580-a3bb-9bb4fd93914b"/>
+          <ID name="" mc="Standard.Note" uid="aba1133b-01cd-456a-b381-c37683affb53"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

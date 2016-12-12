@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="security guard" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Security guard" version="4">
   <OBJECT>
-    <ID name="security guard" mc="Standard.Actor" uid="5fb688ef-7c50-4cbd-953f-50e43b12b837"/>
+    <ID name="Security guard" mc="Standard.Actor" uid="5fb688ef-7c50-4cbd-953f-50e43b12b837"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[security guard]]></ATT>
+      <ATT name="Name"><![CDATA[Security guard]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -33,7 +33,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="visits car parks at regular intervals" mc="Standard.UseCase" uid="17a77639-f20a-4462-9849-be898571a2cf"/>
+              <ID name="Visit car park" mc="Standard.UseCase" uid="17a77639-f20a-4462-9849-be898571a2cf"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

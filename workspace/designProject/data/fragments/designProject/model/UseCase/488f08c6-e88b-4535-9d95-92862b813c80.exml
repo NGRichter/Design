@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="card reader" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Input card" version="4">
   <OBJECT>
-    <ID name="card reader" mc="Standard.UseCase" uid="488f08c6-e88b-4535-9d95-92862b813c80"/>
+    <ID name="Input card" mc="Standard.UseCase" uid="488f08c6-e88b-4535-9d95-92862b813c80"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[card reader]]></ATT>
+      <ATT name="Name"><![CDATA[Input card]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

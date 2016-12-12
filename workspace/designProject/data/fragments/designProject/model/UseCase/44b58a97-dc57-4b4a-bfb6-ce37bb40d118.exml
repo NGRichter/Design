@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="takes ticket " version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Insert ticket" version="4">
   <OBJECT>
-    <ID name="takes ticket " mc="Standard.UseCase" uid="44b58a97-dc57-4b4a-bfb6-ce37bb40d118"/>
+    <ID name="Insert ticket" mc="Standard.UseCase" uid="44b58a97-dc57-4b4a-bfb6-ce37bb40d118"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[takes ticket ]]></ATT>
+      <ATT name="Name"><![CDATA[Insert ticket]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -33,7 +33,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="ordinary customer" mc="Standard.Actor" uid="2db3965d-8301-4074-92e9-ea4423d39e04"/>
+              <ID name="Customer" mc="Standard.Actor" uid="2db3965d-8301-4074-92e9-ea4423d39e04"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

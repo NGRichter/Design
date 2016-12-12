@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="insert ticket" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Push Button" version="4">
   <OBJECT>
-    <ID name="insert ticket" mc="Standard.UseCase" uid="1147364a-85b1-4cfc-a5ed-89a91c845ccc"/>
+    <ID name="Push Button" mc="Standard.UseCase" uid="1147364a-85b1-4cfc-a5ed-89a91c845ccc"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[insert ticket]]></ATT>
+      <ATT name="Name"><![CDATA[Push Button]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

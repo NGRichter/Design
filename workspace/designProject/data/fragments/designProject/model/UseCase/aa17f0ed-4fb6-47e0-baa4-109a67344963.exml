@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="record problems" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Print ticket" version="4">
   <OBJECT>
-    <ID name="record problems" mc="Standard.UseCase" uid="77c9aae7-0d29-434f-8f5c-08c06ed1e5d5"/>
+    <ID name="Print ticket" mc="Standard.UseCase" uid="aa17f0ed-4fb6-47e0-baa4-109a67344963"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[record problems]]></ATT>
+      <ATT name="Name"><![CDATA[Print ticket]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="d71735cf-1a09-4e1e-b3c6-faa195d01d76"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="6cea71cc-3c18-4d65-b702-36b0bcda5dd4"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -33,11 +33,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="management" mc="Standard.Actor" uid="f6364a5f-aafd-49eb-89bc-5cbfa60428dd"/>
+              <ID name="system" mc="Standard.Actor" uid="922306d3-7a81-495e-92c0-d63ee58d4ea0"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="b0f8f489-f807-48f0-b8dc-3b2e1f1842cc"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="f3a5d321-a964-4efc-8695-86cdff683c4c"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -55,11 +55,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="d71735cf-1a09-4e1e-b3c6-faa195d01d76"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="6cea71cc-3c18-4d65-b702-36b0bcda5dd4"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="4bdb1c4a-a070-48bf-9d80-66ee6559aa3d"/>
+                      <ID name="" mc="Standard.Association" uid="19b40de1-ee7b-434a-b2f2-d962fb7aeeff"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -71,14 +71,14 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="4bdb1c4a-a070-48bf-9d80-66ee6559aa3d"/>
+              <COMPID name="" mc="Standard.Association" uid="19b40de1-ee7b-434a-b2f2-d962fb7aeeff"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="9020faf3-dab3-47ad-89f4-d20187973968"/>
+          <ID name="" mc="Standard.Note" uid="31659131-4322-41e9-a221-dfd8535d25ea"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -92,7 +92,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="90734391-d1c7-4411-942c-6ab232e93214"/>
+          <ID name="" mc="Standard.Note" uid="7913b50b-5c2e-4615-a170-1eb8533339fc"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -106,7 +106,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="372978de-2b67-46b3-8a6c-26fa9f6fbd77"/>
+          <ID name="" mc="Standard.Note" uid="34c232f8-2398-4e12-8a34-8d9aa0fa20f5"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -120,7 +120,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="d939eff7-8037-4dbc-bd49-172cc15e4168"/>
+          <ID name="" mc="Standard.Note" uid="e4aa3b4c-1bfe-46f1-964d-ce80d468521c"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -134,7 +134,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="c38aa869-7e30-4b66-99b7-64eda43be04c"/>
+          <ID name="" mc="Standard.Note" uid="f017b709-14fa-4c0a-9d73-4d01ad4e16c7"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -148,7 +148,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="b1c5b93d-ca1b-4e69-a6c3-cc417bc9e36b"/>
+          <ID name="" mc="Standard.Note" uid="ece7ce1e-a30b-40a3-9566-b8f32ae29c74"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

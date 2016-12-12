@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="season ticket holder" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Season ticket holder" version="4">
   <OBJECT>
-    <ID name="season ticket holder" mc="Standard.Actor" uid="4af46431-9314-4bb4-8c03-490cfb32be56"/>
+    <ID name="Season ticket holder" mc="Standard.Actor" uid="4af46431-9314-4bb4-8c03-490cfb32be56"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[season ticket holder]]></ATT>
+      <ATT name="Name"><![CDATA[Season ticket holder]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

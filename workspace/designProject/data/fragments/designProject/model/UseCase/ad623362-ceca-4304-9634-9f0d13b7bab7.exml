@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Collect money" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modify data" version="4">
   <OBJECT>
-    <ID name="Collect money" mc="Standard.UseCase" uid="864d6e68-4a2d-49ea-8cda-94e4b16af55c"/>
+    <ID name="Modify data" mc="Standard.UseCase" uid="ad623362-ceca-4304-9634-9f0d13b7bab7"/>
     <PID name="designproject" mc="Standard.Package" uid="fbd726bf-e174-4328-8066-a909fb17a827"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Collect money]]></ATT>
+      <ATT name="Name"><![CDATA[Modify data]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="51202cc3-4e6b-487b-827b-9817693d1288"/>
+          <ID name="" mc="Standard.Note" uid="fc313987-62be-4bfe-939b-a61b347747b9"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -29,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="fd57ba6e-b6f0-41f2-84f9-61cc5eacb2d4"/>
+          <ID name="" mc="Standard.Note" uid="a0bfe3f6-c5c4-41aa-8c6f-547ee8d33daf"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -43,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="7fcb31bc-9e91-463f-a2f6-3802a7a419c4"/>
+          <ID name="" mc="Standard.Note" uid="8c41cc25-6fe8-437d-b9dc-e2a1787cc38f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -57,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="b66b1b37-fa0f-4630-b9ef-1c5376213fad"/>
+          <ID name="" mc="Standard.Note" uid="b7dbfaf9-4b79-44c4-8330-e0e67add7711"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -71,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="58524741-5ff5-430c-9572-9e70a4f12bdc"/>
+          <ID name="" mc="Standard.Note" uid="10e2b72e-5f30-4ab6-a055-e257857a9d47"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -85,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="3490b4db-3dde-4004-9665-71c2275ff1c8"/>
+          <ID name="" mc="Standard.Note" uid="8236083b-2847-4cb2-8704-3e08cc789ed2"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
