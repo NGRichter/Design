@@ -16,19 +16,20 @@
       <COMP relation="OwnedElement">
         <COMPID name="Season Ticket" mc="Standard.Class" uid="0febd1da-0274-4353-b36b-31f94ab41edb"/>
         <COMPID name="Ticket" mc="Standard.Class" uid="51e3366d-4924-4b18-a2f7-60bfaed15fda"/>
-        <COMPID name="control pillar" mc="Standard.Class" uid="0e76e9eb-ed6c-4a21-ba52-b583a6b23cfe"/>
-        <COMPID name="Entry the car park" mc="Standard.Class" uid="575067da-a064-46ba-bbca-763b68ae7db9"/>
-        <COMPID name="PayStation" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
+        <COMPID name="Control Pillar" mc="Standard.Class" uid="0e76e9eb-ed6c-4a21-ba52-b583a6b23cfe"/>
+        <COMPID name="Entry" mc="Standard.Class" uid="575067da-a064-46ba-bbca-763b68ae7db9"/>
+        <COMPID name="Pay Station" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
         <COMPID name="Car Park" mc="Standard.Class" uid="d6d6bbd9-6158-4b89-a55c-173b4f6af53d"/>
         <COMPID name="Ordinary Ticket" mc="Standard.Class" uid="17581a25-1150-4158-b23e-383951398dd9"/>
-        <COMPID name="Exit the car park" mc="Standard.Class" uid="07517f9f-2525-4fc4-941a-5d231ae54e1b"/>
+        <COMPID name="Exit" mc="Standard.Class" uid="07517f9f-2525-4fc4-941a-5d231ae54e1b"/>
         <COMPID name="Barrier" mc="Standard.Class" uid="2ee95ce6-30e6-4ff1-b974-30bf4acfee72"/>
         <COMPID name="Employee" mc="Standard.Class" uid="09132cd9-88aa-45ee-9bc6-bf34de435272"/>
         <COMPID name="Council" mc="Standard.Class" uid="f7b23a8b-df74-4888-9700-1d0af641d4a2"/>
         <COMPID name="Internal" mc="Standard.Class" uid="2d8c4182-6595-4619-a28e-1583df52b671"/>
         <COMPID name="User" mc="Standard.Class" uid="8ab81bc6-980f-4bc6-b5e6-9ca155e7c83f"/>
-        <COMPID name="External" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
-        <COMPID name="Security card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
+        <COMPID name="Security Company" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
+        <COMPID name="Security Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
+        <COMPID name="Entry Card Scanner" mc="Standard.Class" uid="c2111efd-d6ae-4988-9a78-c4e17caec62e"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="3555dbc6-c187-403c-ae33-769910335a56"/>

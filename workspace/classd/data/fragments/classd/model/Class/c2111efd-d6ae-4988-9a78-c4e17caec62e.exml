@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Barrier" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Entry Card Scanner" version="4">
   <OBJECT>
-    <ID name="Barrier" mc="Standard.Class" uid="2ee95ce6-30e6-4ff1-b974-30bf4acfee72"/>
+    <ID name="Entry Card Scanner" mc="Standard.Class" uid="c2111efd-d6ae-4988-9a78-c4e17caec62e"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,12 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Barrier]]></ATT>
+      <ATT name="Name"><![CDATA[Entry Card Scanner]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="open" mc="Standard.Component" uid="215b43df-520f-4505-8b74-a8174bf09801"/>
-        <COMPID name="close" mc="Standard.Component" uid="97993c21-0c99-4710-97d0-411c88a8d20a"/>
+        <COMPID name="registerStay" mc="Standard.Component" uid="05494442-8508-4523-9c23-f60bae2b92f3"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="open/closed" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="open" version="4">
   <OBJECT>
-    <ID name="open/closed" mc="Standard.Component" uid="215b43df-520f-4505-8b74-a8174bf09801"/>
+    <ID name="open" mc="Standard.Component" uid="215b43df-520f-4505-8b74-a8174bf09801"/>
     <PID name="Barrier" mc="Standard.Class" uid="2ee95ce6-30e6-4ff1-b974-30bf4acfee72"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[open/closed]]></ATT>
+      <ATT name="Name"><![CDATA[open]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

@@ -41,7 +41,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Car park not full" mc="Standard.State" uid="003032b1-575b-420c-9d8c-3f89bb343fa3"/>
+                            <ID name="Barrier closed" mc="Standard.State" uid="93a01fc0-71d9-4da1-ba9d-9d1e2413d910"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>

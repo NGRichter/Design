@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="calculatePrice" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="incrementSpotSpecial" version="4">
   <OBJECT>
-    <ID name="calculatePrice" mc="Standard.Component" uid="aeca149d-c51a-4ae2-b9db-093c6764443f"/>
-    <PID name="Pay Station" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
+    <ID name="incrementSpotSpecial" mc="Standard.Component" uid="f24c08e7-5485-495d-9beb-f4d5f0016179"/>
+    <PID name="Entry" mc="Standard.Class" uid="575067da-a064-46ba-bbca-763b68ae7db9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[calculatePrice]]></ATT>
+      <ATT name="Name"><![CDATA[incrementSpotSpecial]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

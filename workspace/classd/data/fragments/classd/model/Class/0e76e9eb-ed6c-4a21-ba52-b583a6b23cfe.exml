@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="control pillar" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Control Pillar" version="4">
   <OBJECT>
-    <ID name="control pillar" mc="Standard.Class" uid="0e76e9eb-ed6c-4a21-ba52-b583a6b23cfe"/>
+    <ID name="Control Pillar" mc="Standard.Class" uid="0e76e9eb-ed6c-4a21-ba52-b583a6b23cfe"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[control pillar]]></ATT>
+      <ATT name="Name"><![CDATA[Control Pillar]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -140,9 +140,24 @@
         </REFOBJ>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="getFreeSpots" mc="Standard.Component" uid="7ed4f2cf-d527-4154-93e6-3c05b5b716ae"/>
-        <COMPID name="Operate barrier" mc="Standard.Component" uid="32c31758-8503-4934-904d-9f052f8a1486"/>
-        <COMPID name="Display element" mc="Standard.Component" uid="f68cbf39-3580-485f-9cd2-7e8c26a5b135"/>
+        <COMPID name="operateBarrier" mc="Standard.Component" uid="32c31758-8503-4934-904d-9f052f8a1486"/>
+        <COMPID name="displayText" mc="Standard.Component" uid="f68cbf39-3580-485f-9cd2-7e8c26a5b135"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="771b36c5-aae0-4939-9de5-df4b4cd30793"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

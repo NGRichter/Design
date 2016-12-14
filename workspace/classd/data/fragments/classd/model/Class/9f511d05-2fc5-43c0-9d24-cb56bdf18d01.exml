@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PayStation" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pay Station" version="4">
   <OBJECT>
-    <ID name="PayStation" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
+    <ID name="Pay Station" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,16 +11,55 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[PayStation]]></ATT>
+      <ATT name="Name"><![CDATA[Pay Station]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="Ticket list : ArrayList&lt;Tickets&gt;" mc="Standard.Attribute" uid="71517e16-65f8-43a8-9347-60f92ae5a46b"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Ticket list : ArrayList<Tickets>]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Standard.Note" uid="40d33028-a7fd-44c8-a6d9-874fdcf23357"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Calculate Price" mc="Standard.Component" uid="aeca149d-c51a-4ae2-b9db-093c6764443f"/>
-        <COMPID name="Return Change" mc="Standard.Component" uid="ac78e04b-0656-4a98-89b0-9860c9c9b4bb"/>
-        <COMPID name="Check ticket" mc="Standard.Component" uid="3aeb08b8-cad5-4ef2-b15b-822b3832de7d"/>
-        <COMPID name="AddPaymentTime" mc="Standard.Component" uid="4b2bf657-1dc4-4f67-b624-4552714dd021"/>
-        <COMPID name="Store paymentdetails" mc="Standard.Component" uid="1d4377e3-30a1-493b-9d5c-3d795c5f4cdc"/>
+        <COMPID name="calculatePrice" mc="Standard.Component" uid="aeca149d-c51a-4ae2-b9db-093c6764443f"/>
+        <COMPID name="returnChange" mc="Standard.Component" uid="ac78e04b-0656-4a98-89b0-9860c9c9b4bb"/>
+        <COMPID name="checkTicket" mc="Standard.Component" uid="3aeb08b8-cad5-4ef2-b15b-822b3832de7d"/>
+        <COMPID name="setPaymentTime" mc="Standard.Component" uid="4b2bf657-1dc4-4f67-b624-4552714dd021"/>
+        <COMPID name="storePaymentdetails" mc="Standard.Component" uid="1d4377e3-30a1-493b-9d5c-3d795c5f4cdc"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

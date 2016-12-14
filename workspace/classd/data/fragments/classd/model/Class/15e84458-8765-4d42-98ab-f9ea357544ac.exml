@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="External" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Security Company" version="4">
   <OBJECT>
-    <ID name="External" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
+    <ID name="Security Company" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,9 +11,28 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[External]]></ATT>
+      <ATT name="Name"><![CDATA[Security Company]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="5f70dbb2-dce3-48a1-9d3c-3cbf2ad98d91"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="User" mc="Standard.Class" uid="8ab81bc6-980f-4bc6-b5e6-9ca155e7c83f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="getCard" mc="Standard.Component" uid="0259b876-7784-47ec-9a4a-8dc0441bb849"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>

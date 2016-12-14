@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Security card" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Security Card" version="4">
   <OBJECT>
-    <ID name="Security card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
+    <ID name="Security Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,10 +11,36 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Security card]]></ATT>
+      <ATT name="Name"><![CDATA[Security Card]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="Company name" mc="Standard.Attribute" uid="23cd87fd-e5ee-4ab8-9a57-5833212f07f5"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Company name]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
           <ID name="external" mc="Standard.AssociationEnd" uid="3033a7c9-d2ec-4f98-989b-501dcf98a401"/>
@@ -35,7 +61,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="External" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
+              <ID name="Security Guard" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -79,7 +105,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Company number: integer" mc="Standard.Component" uid="7152915d-6b46-4a1d-b77d-f4a30a3192cd"/>
+        <COMPID name="getName" mc="Standard.Component" uid="a6a0ef26-f5f9-4761-ad41-186b3865ed3a"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

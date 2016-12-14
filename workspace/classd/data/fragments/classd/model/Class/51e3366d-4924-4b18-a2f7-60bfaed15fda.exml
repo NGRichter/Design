@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="Entry rime/date: integer" mc="Standard.Attribute" uid="b589a93e-7cc9-42c2-9cb9-27f5032a611f"/>
+          <ID name="Entry time/date" mc="Standard.Attribute" uid="b589a93e-7cc9-42c2-9cb9-27f5032a611f"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,13 +31,29 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Entry rime/date: integer]]></ATT>
+            <ATT name="Name"><![CDATA[Entry time/date]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
             </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Standard.Note" uid="84601e5e-11e2-485d-ac21-db2cdc28f4eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
@@ -61,7 +77,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="PayStation" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
+              <ID name="Pay Station" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
