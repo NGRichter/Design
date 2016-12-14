@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="classd" version="4">
+  <OBJECT>
+    <ID name="classd" mc="Standard.AnalystProject" uid="eb63c611-1337-470b-b936-5dbb547cf776"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[classd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="classd" mc="Standard.PropertyContainer" uid="19f8b7d1-a9da-4960-b46c-9b3fd6206b6f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

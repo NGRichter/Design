@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ordinary Ticket" version="4">
+  <OBJECT>
+    <ID name="Ordinary Ticket" mc="Standard.Class" uid="17581a25-1150-4158-b23e-383951398dd9"/>
+    <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ordinary Ticket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="ce6e3660-b2dc-4f74-aee1-1e24989fd6b3"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Ticket" mc="Standard.Class" uid="51e3366d-4924-4b18-a2f7-60bfaed15fda"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Payment time: Integer" mc="Standard.Component" uid="0a60b156-9a96-4212-9699-f42ce7311256"/>
+        <COMPID name="getPaymentTime" mc="Standard.Component" uid="4d6f8194-ab95-46a5-ad13-bb4b36d2f720"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
