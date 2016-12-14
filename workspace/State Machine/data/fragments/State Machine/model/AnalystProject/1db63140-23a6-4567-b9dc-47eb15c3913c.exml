@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine" version="4">
+  <OBJECT>
+    <ID name="State Machine" mc="Standard.AnalystProject" uid="1db63140-23a6-4567-b9dc-47eb15c3913c"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[State Machine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="State Machine" mc="Standard.PropertyContainer" uid="e4416f94-a765-40be-8a80-1b7647dbacc0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
