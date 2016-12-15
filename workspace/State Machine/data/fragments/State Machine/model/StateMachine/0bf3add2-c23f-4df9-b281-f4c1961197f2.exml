@@ -28,7 +28,7 @@
                 <DEPENDENCIES>
                   <COMP relation="OutGoing">
                     <OBJECT>
-                      <ID name="Transition" mc="Standard.Transition" uid="432f1e93-2914-48f1-a1db-909631c865ae"/>
+                      <ID name="Transition" mc="Standard.Transition" uid="48a80d71-ac7e-4244-bdbb-92203b5b0004"/>
                       <ATTRIBUTES>
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
@@ -41,7 +41,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Barrier closed" mc="Standard.State" uid="93a01fc0-71d9-4da1-ba9d-9d1e2413d910"/>
+                            <ID name="Empty ticket" mc="Standard.State" uid="5c4005ee-b4d3-4a85-83cc-bb3477e40796"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -50,15 +50,15 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Car park not full" mc="Standard.State" uid="003032b1-575b-420c-9d8c-3f89bb343fa3"/>
+                <ID name="Ticket in use" mc="Standard.State" uid="6ed45926-5cdf-46a7-b086-490c8dfa10c1"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[Car park not full]]></ATT>
+                  <ATT name="Name"><![CDATA[Ticket in use]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="OwnedRegion">
                     <OBJECT>
-                      <ID name="Region" mc="Standard.Region" uid="d089aca7-5ed1-4ba5-8e60-96e7e6776495"/>
+                      <ID name="Region" mc="Standard.Region" uid="39b77856-3bb2-4d5d-924f-774138aef9c6"/>
                       <ATTRIBUTES>
                         <ATT name="Name"><![CDATA[Region]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -66,20 +66,20 @@
                       <DEPENDENCIES>
                         <COMP relation="Sub">
                           <OBJECT>
-                            <ID name="Barrier closed" mc="Standard.State" uid="93a01fc0-71d9-4da1-ba9d-9d1e2413d910"/>
+                            <ID name="Entry time known" mc="Standard.State" uid="3e6e2d85-8229-4b63-88df-037ad4ba55cf"/>
                             <ATTRIBUTES>
-                              <ATT name="Name"><![CDATA[Barrier closed]]></ATT>
+                              <ATT name="Name"><![CDATA[Entry time known]]></ATT>
                               <ATT name="status">1970354901745664</ATT>
                             </ATTRIBUTES>
                             <DEPENDENCIES>
                               <COMP relation="OutGoing">
                                 <OBJECT>
-                                  <ID name="Transition" mc="Standard.Transition" uid="76c14aeb-328f-4f51-a4eb-f7e2ec933b61"/>
+                                  <ID name="Transition" mc="Standard.Transition" uid="532fc48a-0a77-4e05-9d5c-ae2dc37e1158"/>
                                   <ATTRIBUTES>
                                     <ATT name="Effect"></ATT>
                                     <ATT name="ReceivedEvents"></ATT>
                                     <ATT name="SentEvents"></ATT>
-                                    <ATT name="Guard"><![CDATA[Car wants to enter]]></ATT>
+                                    <ATT name="Guard"><![CDATA[Customer inputs into control pillar]]></ATT>
                                     <ATT name="PostCondition"></ATT>
                                     <ATT name="Name"><![CDATA[Transition]]></ATT>
                                     <ATT name="status">1970354901745664</ATT>
@@ -87,24 +87,8 @@
                                   <DEPENDENCIES>
                                     <LINK relation="Target">
                                       <REFOBJ>
-                                        <ID name="Barrier open" mc="Standard.State" uid="a7da4926-fc77-4c6e-b4c2-21829f194a7f"/>
+                                        <ID name="Exit time known" mc="Standard.State" uid="ecb087d6-b57a-4547-8b63-17be8436f7ea"/>
                                       </REFOBJ>
-                                    </LINK>
-                                  </DEPENDENCIES>
-                                </OBJECT>
-                              </COMP>
-                              <COMP relation="Descriptor">
-                                <OBJECT>
-                                  <ID name="" mc="Standard.Note" uid="0710175d-7b12-415c-afe3-f9661411719c"/>
-                                  <ATTRIBUTES>
-                                    <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-                                    <ATT name="MimeType"></ATT>
-                                    <ATT name="Name"></ATT>
-                                    <ATT name="status">1970354901745664</ATT>
-                                  </ATTRIBUTES>
-                                  <DEPENDENCIES>
-                                    <LINK relation="Model">
-                                      <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
                                     </LINK>
                                   </DEPENDENCIES>
                                 </OBJECT>
@@ -112,20 +96,20 @@
                             </DEPENDENCIES>
                           </OBJECT>
                           <OBJECT>
-                            <ID name="Barrier open" mc="Standard.State" uid="a7da4926-fc77-4c6e-b4c2-21829f194a7f"/>
+                            <ID name="Empty ticket" mc="Standard.State" uid="5c4005ee-b4d3-4a85-83cc-bb3477e40796"/>
                             <ATTRIBUTES>
-                              <ATT name="Name"><![CDATA[Barrier open]]></ATT>
+                              <ATT name="Name"><![CDATA[Empty ticket]]></ATT>
                               <ATT name="status">1970354901745664</ATT>
                             </ATTRIBUTES>
                             <DEPENDENCIES>
                               <COMP relation="OutGoing">
                                 <OBJECT>
-                                  <ID name="Transition" mc="Standard.Transition" uid="2a3cf9c8-aa0c-4ab7-a4c9-b0cea3e10b9d"/>
+                                  <ID name="Transition" mc="Standard.Transition" uid="903f6975-334e-4b02-85ee-ed8654859851"/>
                                   <ATTRIBUTES>
                                     <ATT name="Effect"></ATT>
                                     <ATT name="ReceivedEvents"></ATT>
                                     <ATT name="SentEvents"></ATT>
-                                    <ATT name="Guard"><![CDATA[Car has passed]]></ATT>
+                                    <ATT name="Guard"><![CDATA[Car enters]]></ATT>
                                     <ATT name="PostCondition"></ATT>
                                     <ATT name="Name"><![CDATA[Transition]]></ATT>
                                     <ATT name="status">1970354901745664</ATT>
@@ -133,7 +117,7 @@
                                   <DEPENDENCIES>
                                     <LINK relation="Target">
                                       <REFOBJ>
-                                        <ID name="Barrier closed" mc="Standard.State" uid="93a01fc0-71d9-4da1-ba9d-9d1e2413d910"/>
+                                        <ID name="Entry time known" mc="Standard.State" uid="3e6e2d85-8229-4b63-88df-037ad4ba55cf"/>
                                       </REFOBJ>
                                     </LINK>
                                   </DEPENDENCIES>
@@ -141,18 +125,135 @@
                               </COMP>
                             </DEPENDENCIES>
                           </OBJECT>
+                          <OBJECT>
+                            <ID name="Exit time known" mc="Standard.State" uid="ecb087d6-b57a-4547-8b63-17be8436f7ea"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Exit time known]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Region1" mc="Standard.Region" uid="c9480871-a5c8-41ee-9988-e0a82134a4f3"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Region1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Sub">
+                          <OBJECT>
+                            <ID name="Initial State" mc="Standard.InitialPseudoState" uid="4862cefa-9137-4f75-8a86-244c64cc85fb"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="e748d49b-d5cd-432d-a425-dda247a2b568"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Not paid" mc="Standard.State" uid="8a91c30c-44a6-4c40-8649-75ba4c5c8a72"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Not paid" mc="Standard.State" uid="8a91c30c-44a6-4c40-8649-75ba4c5c8a72"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Not paid]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="92984436-a477-4b4d-bedc-f001619730f8"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Paid" mc="Standard.State" uid="e962062c-0c90-4c08-82c8-eeb280b08046"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Paid" mc="Standard.State" uid="e962062c-0c90-4c08-82c8-eeb280b08046"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Paid]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="OutGoing">
+                                <OBJECT>
+                                  <ID name="Transition" mc="Standard.Transition" uid="0667eccd-b405-4071-b5e6-28bf51d9fa16"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="Effect"></ATT>
+                                    <ATT name="ReceivedEvents"></ATT>
+                                    <ATT name="SentEvents"></ATT>
+                                    <ATT name="Guard"></ATT>
+                                    <ATT name="PostCondition"></ATT>
+                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID name="Final State" mc="Standard.FinalState" uid="9c8e3329-55fb-45a6-9762-5f9d98c7f5f0"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID name="Final State" mc="Standard.FinalState" uid="9c8e3329-55fb-45a6-9762-5f9d98c7f5f0"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[Final State]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
                         </COMP>
                       </DEPENDENCIES>
                     </OBJECT>
                   </COMP>
                   <COMP relation="OutGoing">
                     <OBJECT>
-                      <ID name="Transition" mc="Standard.Transition" uid="fda55901-94b8-4a73-95b5-a2734448fe1a"/>
+                      <ID name="Transition" mc="Standard.Transition" uid="74917890-3852-4c4b-9037-640b9f4b4102"/>
                       <ATTRIBUTES>
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
                         <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"><![CDATA[Car park becomes full]]></ATT>
+                        <ATT name="Guard"><![CDATA[Car leaves car park]]></ATT>
                         <ATT name="PostCondition"></ATT>
                         <ATT name="Name"><![CDATA[Transition]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -160,7 +261,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Car park full" mc="Standard.State" uid="c3ae0751-a8f6-4924-b719-a4f5896458e7"/>
+                            <ID name="Old ticket" mc="Standard.State" uid="a6a73ddb-5955-4043-967a-53fd76b09012"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -169,34 +270,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Car park full" mc="Standard.State" uid="c3ae0751-a8f6-4924-b719-a4f5896458e7"/>
+                <ID name="Old ticket" mc="Standard.State" uid="a6a73ddb-5955-4043-967a-53fd76b09012"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[Car park full]]></ATT>
+                  <ATT name="Name"><![CDATA[Old ticket]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="OutGoing">
-                    <OBJECT>
-                      <ID name="Transition" mc="Standard.Transition" uid="eed4960f-0dcd-42b5-a9fe-3efa26a43bc9"/>
-                      <ATTRIBUTES>
-                        <ATT name="Effect"></ATT>
-                        <ATT name="ReceivedEvents"></ATT>
-                        <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"><![CDATA[Car leaves the car park]]></ATT>
-                        <ATT name="PostCondition"></ATT>
-                        <ATT name="Name"><![CDATA[Transition]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="Car park not full" mc="Standard.State" uid="003032b1-575b-420c-9d8c-3f89bb343fa3"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
