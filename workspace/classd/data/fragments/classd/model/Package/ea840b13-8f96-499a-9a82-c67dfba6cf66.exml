@@ -25,10 +25,8 @@
         <COMPID name="Barrier" mc="Standard.Class" uid="2ee95ce6-30e6-4ff1-b974-30bf4acfee72"/>
         <COMPID name="Employee" mc="Standard.Class" uid="09132cd9-88aa-45ee-9bc6-bf34de435272"/>
         <COMPID name="Council" mc="Standard.Class" uid="f7b23a8b-df74-4888-9700-1d0af641d4a2"/>
-        <COMPID name="Internal" mc="Standard.Class" uid="2d8c4182-6595-4619-a28e-1583df52b671"/>
-        <COMPID name="User" mc="Standard.Class" uid="8ab81bc6-980f-4bc6-b5e6-9ca155e7c83f"/>
         <COMPID name="Security Company" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
-        <COMPID name="Security Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
+        <COMPID name="Employee Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
         <COMPID name="Entry Card Scanner" mc="Standard.Class" uid="c2111efd-d6ae-4988-9a78-c4e17caec62e"/>
       </COMP>
       <COMP relation="Product">

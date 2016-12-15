@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Security Card" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Employee Card" version="4">
   <OBJECT>
-    <ID name="Security Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
+    <ID name="Employee Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Security Card]]></ATT>
+      <ATT name="Name"><![CDATA[Employee Card]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="Company name" mc="Standard.Attribute" uid="23cd87fd-e5ee-4ab8-9a57-5833212f07f5"/>
+          <ID name="Card number" mc="Standard.Attribute" uid="23cd87fd-e5ee-4ab8-9a57-5833212f07f5"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,19 +31,35 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Company name]]></ATT>
+            <ATT name="Name"><![CDATA[Card number]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Standard.Note" uid="4cf56167-288a-437d-b3fa-3bbcb28549cf"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="external" mc="Standard.AssociationEnd" uid="3033a7c9-d2ec-4f98-989b-501dcf98a401"/>
+          <ID name="entry Card Scanner" mc="Standard.AssociationEnd" uid="473b3616-6100-4c7e-9006-aefacd8780c1"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -51,21 +67,21 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[external]]></ATT>
+            <ATT name="Name"><![CDATA[entry Card Scanner]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Security Guard" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
+              <ID name="Entry Card Scanner" mc="Standard.Class" uid="c2111efd-d6ae-4988-9a78-c4e17caec62e"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="3efe34b3-bc84-4d20-b846-17ec31e8d231"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="7aba840f-f470-41c9-abbd-2691cbdeae08"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -74,7 +90,7 @@
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -83,11 +99,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="external" mc="Standard.AssociationEnd" uid="3033a7c9-d2ec-4f98-989b-501dcf98a401"/>
+                    <COMPID name="entry Card Scanner" mc="Standard.AssociationEnd" uid="473b3616-6100-4c7e-9006-aefacd8780c1"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="e9051feb-e17e-4919-99d0-99bf230c22c9"/>
+                      <ID name="" mc="Standard.Association" uid="042ae092-edb0-4643-891b-d4ecca37e334"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -99,7 +115,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="e9051feb-e17e-4919-99d0-99bf230c22c9"/>
+              <COMPID name="" mc="Standard.Association" uid="042ae092-edb0-4643-891b-d4ecca37e334"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

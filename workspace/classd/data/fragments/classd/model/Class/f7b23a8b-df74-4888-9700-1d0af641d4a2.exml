@@ -15,21 +15,6 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="Parent">
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="abb733f7-9f9a-4bfd-96ef-053186334405"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Internal" mc="Standard.Class" uid="2d8c4182-6595-4619-a28e-1583df52b671"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="getAllCarParkData" mc="Standard.Component" uid="c76d62da-9f46-4c83-a2b2-fa9c14dd3eb0"/>
       </COMP>
