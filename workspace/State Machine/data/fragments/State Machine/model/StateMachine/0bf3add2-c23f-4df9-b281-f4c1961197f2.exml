@@ -79,7 +79,7 @@
                                     <ATT name="Effect"></ATT>
                                     <ATT name="ReceivedEvents"></ATT>
                                     <ATT name="SentEvents"></ATT>
-                                    <ATT name="Guard"><![CDATA[Customer inputs into control pillar]]></ATT>
+                                    <ATT name="Guard"><![CDATA[Customer inputs ticket into control pillar]]></ATT>
                                     <ATT name="PostCondition"></ATT>
                                     <ATT name="Name"><![CDATA[Transition]]></ATT>
                                     <ATT name="status">1970354901745664</ATT>
@@ -88,36 +88,6 @@
                                     <LINK relation="Target">
                                       <REFOBJ>
                                         <ID name="Exit time known" mc="Standard.State" uid="ecb087d6-b57a-4547-8b63-17be8436f7ea"/>
-                                      </REFOBJ>
-                                    </LINK>
-                                  </DEPENDENCIES>
-                                </OBJECT>
-                              </COMP>
-                            </DEPENDENCIES>
-                          </OBJECT>
-                          <OBJECT>
-                            <ID name="Empty ticket" mc="Standard.State" uid="5c4005ee-b4d3-4a85-83cc-bb3477e40796"/>
-                            <ATTRIBUTES>
-                              <ATT name="Name"><![CDATA[Empty ticket]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES>
-                              <COMP relation="OutGoing">
-                                <OBJECT>
-                                  <ID name="Transition" mc="Standard.Transition" uid="903f6975-334e-4b02-85ee-ed8654859851"/>
-                                  <ATTRIBUTES>
-                                    <ATT name="Effect"></ATT>
-                                    <ATT name="ReceivedEvents"></ATT>
-                                    <ATT name="SentEvents"></ATT>
-                                    <ATT name="Guard"><![CDATA[Car enters]]></ATT>
-                                    <ATT name="PostCondition"></ATT>
-                                    <ATT name="Name"><![CDATA[Transition]]></ATT>
-                                    <ATT name="status">1970354901745664</ATT>
-                                  </ATTRIBUTES>
-                                  <DEPENDENCIES>
-                                    <LINK relation="Target">
-                                      <REFOBJ>
-                                        <ID name="Entry time known" mc="Standard.State" uid="3e6e2d85-8229-4b63-88df-037ad4ba55cf"/>
                                       </REFOBJ>
                                     </LINK>
                                   </DEPENDENCIES>
@@ -188,7 +158,7 @@
                                     <ATT name="Effect"></ATT>
                                     <ATT name="ReceivedEvents"></ATT>
                                     <ATT name="SentEvents"></ATT>
-                                    <ATT name="Guard"></ATT>
+                                    <ATT name="Guard"><![CDATA[When customer pays]]></ATT>
                                     <ATT name="PostCondition"></ATT>
                                     <ATT name="Name"><![CDATA[Transition]]></ATT>
                                     <ATT name="status">1970354901745664</ATT>
@@ -213,12 +183,12 @@
                             <DEPENDENCIES>
                               <COMP relation="OutGoing">
                                 <OBJECT>
-                                  <ID name="Transition" mc="Standard.Transition" uid="0667eccd-b405-4071-b5e6-28bf51d9fa16"/>
+                                  <ID name="Transition" mc="Standard.Transition" uid="71628c69-2bc9-4606-a52c-47ef40f89255"/>
                                   <ATTRIBUTES>
                                     <ATT name="Effect"></ATT>
                                     <ATT name="ReceivedEvents"></ATT>
                                     <ATT name="SentEvents"></ATT>
-                                    <ATT name="Guard"></ATT>
+                                    <ATT name="Guard"><![CDATA[After 15 minutes when not yet left]]></ATT>
                                     <ATT name="PostCondition"></ATT>
                                     <ATT name="Name"><![CDATA[Transition]]></ATT>
                                     <ATT name="status">1970354901745664</ATT>
@@ -226,21 +196,13 @@
                                   <DEPENDENCIES>
                                     <LINK relation="Target">
                                       <REFOBJ>
-                                        <ID name="Final State" mc="Standard.FinalState" uid="9c8e3329-55fb-45a6-9762-5f9d98c7f5f0"/>
+                                        <ID name="Not paid" mc="Standard.State" uid="8a91c30c-44a6-4c40-8649-75ba4c5c8a72"/>
                                       </REFOBJ>
                                     </LINK>
                                   </DEPENDENCIES>
                                 </OBJECT>
                               </COMP>
                             </DEPENDENCIES>
-                          </OBJECT>
-                          <OBJECT>
-                            <ID name="Final State" mc="Standard.FinalState" uid="9c8e3329-55fb-45a6-9762-5f9d98c7f5f0"/>
-                            <ATTRIBUTES>
-                              <ATT name="Name"><![CDATA[Final State]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES></DEPENDENCIES>
                           </OBJECT>
                         </COMP>
                       </DEPENDENCIES>
@@ -275,7 +237,67 @@
                   <ATT name="Name"><![CDATA[Old ticket]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="2a54fd18-1acb-4567-8948-91b55045e4b4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Final State" mc="Standard.FinalState" uid="39f5d6dc-933d-40dc-b465-eaeff43bf280"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Final State" mc="Standard.FinalState" uid="39f5d6dc-933d-40dc-b465-eaeff43bf280"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Final State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Empty ticket" mc="Standard.State" uid="5c4005ee-b4d3-4a85-83cc-bb3477e40796"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Empty ticket]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="903f6975-334e-4b02-85ee-ed8654859851"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"><![CDATA[Car enters]]></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Entry time known" mc="Standard.State" uid="3e6e2d85-8229-4b63-88df-037ad4ba55cf"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
