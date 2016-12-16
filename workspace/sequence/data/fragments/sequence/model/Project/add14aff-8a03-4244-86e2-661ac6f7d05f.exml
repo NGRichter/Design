@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sequence" version="4">
+  <OBJECT>
+    <ID name="sequence" mc="Standard.Project" uid="add14aff-8a03-4244-86e2-661ac6f7d05f"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[sequence]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="sequence" mc="Standard.DiagramSet" uid="a7248574-5e74-48b6-97ba-7cec1abf578c"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="sequence" mc="Standard.Package" uid="417c63b7-e006-41ba-87ee-e86e48e9c09e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

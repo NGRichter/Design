@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sequence" version="4">
+  <OBJECT>
+    <ID name="sequence" mc="Standard.Package" uid="417c63b7-e006-41ba-87ee-e86e48e9c09e"/>
+    <PID name="sequence" mc="Standard.Project" uid="add14aff-8a03-4244-86e2-661ac6f7d05f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sequence]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="62c2dd89-364d-4a39-8eb1-8595b35d5eee"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="92386eb6-aed5-4d86-97d0-4e9c0ef06ad4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
