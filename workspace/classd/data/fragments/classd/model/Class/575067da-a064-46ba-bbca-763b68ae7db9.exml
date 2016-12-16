@@ -31,7 +31,6 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="printNewCard" mc="Standard.Component" uid="c0b04bf7-da8b-49d5-be4e-c59272cb971f"/>
         <COMPID name="incrementSpotNormal" mc="Standard.Component" uid="9ca93ccd-e192-4f88-a728-f40caa193f0d"/>
         <COMPID name="incrementSpotSpecial" mc="Standard.Component" uid="f24c08e7-5485-495d-9beb-f4d5f0016179"/>
         <COMPID name="isFull" mc="Standard.Component" uid="fac7de11-1d10-422a-b588-bdd7218adbd4"/>

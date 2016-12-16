@@ -16,7 +16,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="registerStay" mc="Standard.Component" uid="05494442-8508-4523-9c23-f60bae2b92f3"/>
+        <COMPID name="registerTimeOf Stay" mc="Standard.Component" uid="05494442-8508-4523-9c23-f60bae2b92f3"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

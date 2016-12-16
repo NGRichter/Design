@@ -28,6 +28,8 @@
         <COMPID name="Security Company" mc="Standard.Class" uid="15e84458-8765-4d42-98ab-f9ea357544ac"/>
         <COMPID name="Employee Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
         <COMPID name="Entry Card Scanner" mc="Standard.Class" uid="c2111efd-d6ae-4988-9a78-c4e17caec62e"/>
+        <COMPID name="Entry OrdinaryTicket" mc="Standard.Class" uid="6c198064-8284-4016-b273-b97aa8a5c55c"/>
+        <COMPID name="Entry SeasonCard" mc="Standard.Class" uid="a2913c65-8e9a-47e9-a46d-8cf448a393dc"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="3555dbc6-c187-403c-ae33-769910335a56"/>

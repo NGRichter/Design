@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="printNewCard" version="4">
   <OBJECT>
     <ID name="printNewCard" mc="Standard.Component" uid="c0b04bf7-da8b-49d5-be4e-c59272cb971f"/>
-    <PID name="Entry" mc="Standard.Class" uid="575067da-a064-46ba-bbca-763b68ae7db9"/>
+    <PID name="Entry OrdinaryTicket" mc="Standard.Class" uid="6c198064-8284-4016-b273-b97aa8a5c55c"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

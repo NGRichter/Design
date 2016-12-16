@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Exit" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Entry SeasonCard" version="4">
   <OBJECT>
-    <ID name="Exit" mc="Standard.Class" uid="07517f9f-2525-4fc4-941a-5d231ae54e1b"/>
+    <ID name="Entry SeasonCard" mc="Standard.Class" uid="a2913c65-8e9a-47e9-a46d-8cf448a393dc"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,39 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Exit]]></ATT>
+      <ATT name="Name"><![CDATA[Entry SeasonCard]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="setEntryTime" mc="Standard.Attribute" uid="17573d86-daba-46b6-8b48-a4ca37d85c52"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[setEntryTime]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="ticket" mc="Standard.AssociationEnd" uid="6210250d-e5c3-4b99-8a10-034f6c38789c"/>
+          <ID name="season Ticket" mc="Standard.AssociationEnd" uid="5b3e96c4-e661-4caa-af15-1b6771bcf1f9"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -30,16 +56,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[ticket]]></ATT>
+            <ATT name="Name"><![CDATA[season Ticket]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Ticket" mc="Standard.Class" uid="51e3366d-4924-4b18-a2f7-60bfaed15fda"/>
+              <ID name="Season Ticket" mc="Standard.Class" uid="0febd1da-0274-4353-b36b-31f94ab41edb"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="5f991a8f-635e-4e24-8422-7ab5dc12752e"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="0b8f308e-8c34-4442-83de-9bce69743d6b"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -57,11 +83,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="ticket" mc="Standard.AssociationEnd" uid="6210250d-e5c3-4b99-8a10-034f6c38789c"/>
+                    <COMPID name="season Ticket" mc="Standard.AssociationEnd" uid="5b3e96c4-e661-4caa-af15-1b6771bcf1f9"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="7f62af5b-5481-46ec-9400-fd8f42382a72"/>
+                      <ID name="" mc="Standard.Association" uid="97e2f0f3-708c-4ed6-836e-64f13d50af5e"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -73,14 +99,14 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="7f62af5b-5481-46ec-9400-fd8f42382a72"/>
+              <COMPID name="" mc="Standard.Association" uid="97e2f0f3-708c-4ed6-836e-64f13d50af5e"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="0de16c1f-1eb5-4b21-b0b8-7b279107b424"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="9daf2675-6bd9-4912-b69e-6e7d3ad930ea"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -88,17 +114,10 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Control Pillar" mc="Standard.Class" uid="0e76e9eb-ed6c-4a21-ba52-b583a6b23cfe"/>
+              <ID name="Entry" mc="Standard.Class" uid="575067da-a064-46ba-bbca-763b68ae7db9"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="OwnedElement">
-        <COMPID name="hasPaid" mc="Standard.Component" uid="9273dadd-2957-4d79-8940-6d64b2fca026"/>
-        <COMPID name="hasSeasonTicket" mc="Standard.Component" uid="0a47c5a2-3702-4fa6-8c51-9604c0152212"/>
-        <COMPID name="startIntercom" mc="Standard.Component" uid="c61a3dcf-9676-4df2-9e8c-80eeff9e79b8"/>
-        <COMPID name="decrementSpotNormal" mc="Standard.Component" uid="0fb6612e-5cae-48a7-acf6-876d0d610fd0"/>
-        <COMPID name="decrementSpotSpecial" mc="Standard.Component" uid="7ebb7c58-42bf-4169-a355-a7c16f572f2a"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

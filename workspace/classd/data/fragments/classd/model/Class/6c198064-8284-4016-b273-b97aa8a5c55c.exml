@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Council" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Entry OrdinaryTicket" version="4">
   <OBJECT>
-    <ID name="Council" mc="Standard.Class" uid="f7b23a8b-df74-4888-9700-1d0af641d4a2"/>
+    <ID name="Entry OrdinaryTicket" mc="Standard.Class" uid="6c198064-8284-4016-b273-b97aa8a5c55c"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Council]]></ATT>
+      <ATT name="Name"><![CDATA[Entry OrdinaryTicket]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="car Park" mc="Standard.AssociationEnd" uid="cfbbc903-591d-46dc-9b1c-9e4fc6a6e384"/>
+          <ID name="ordinary Ticket" mc="Standard.AssociationEnd" uid="dfdbe9b5-7205-46d8-8304-62172ec657da"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -26,20 +26,20 @@
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[car Park]]></ATT>
+            <ATT name="Name"><![CDATA[ordinary Ticket]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Car Park" mc="Standard.Class" uid="d6d6bbd9-6158-4b89-a55c-173b4f6af53d"/>
+              <ID name="Ordinary Ticket" mc="Standard.Class" uid="17581a25-1150-4158-b23e-383951398dd9"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="a91c2d9f-4fdb-49c3-838d-c0fa7e9c65c9"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="d8023e6a-8dd7-476b-b87d-987f4a2109e6"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -47,7 +47,7 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
@@ -57,11 +57,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="car Park" mc="Standard.AssociationEnd" uid="cfbbc903-591d-46dc-9b1c-9e4fc6a6e384"/>
+                    <COMPID name="ordinary Ticket" mc="Standard.AssociationEnd" uid="dfdbe9b5-7205-46d8-8304-62172ec657da"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="9e0ac0d8-eb33-4dcd-bd83-61f5a6cda96b"/>
+                      <ID name="" mc="Standard.Association" uid="b23d21d1-be31-4462-ad43-0dc50ea7a654"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -73,13 +73,28 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="9e0ac0d8-eb33-4dcd-bd83-61f5a6cda96b"/>
+              <COMPID name="" mc="Standard.Association" uid="b23d21d1-be31-4462-ad43-0dc50ea7a654"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="c5e0bf1e-d273-4b1a-bfe0-03d2c04ff0af"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Entry" mc="Standard.Class" uid="575067da-a064-46ba-bbca-763b68ae7db9"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="getAllCarParkData" mc="Standard.Component" uid="c76d62da-9f46-4c83-a2b2-fa9c14dd3eb0"/>
+        <COMPID name="printNewCard" mc="Standard.Component" uid="c0b04bf7-da8b-49d5-be4e-c59272cb971f"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

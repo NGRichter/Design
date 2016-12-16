@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="registerStay" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="registerTimeOf Stay" version="4">
   <OBJECT>
-    <ID name="registerStay" mc="Standard.Component" uid="05494442-8508-4523-9c23-f60bae2b92f3"/>
+    <ID name="registerTimeOf Stay" mc="Standard.Component" uid="05494442-8508-4523-9c23-f60bae2b92f3"/>
     <PID name="Entry Card Scanner" mc="Standard.Class" uid="c2111efd-d6ae-4988-9a78-c4e17caec62e"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[registerStay]]></ATT>
+      <ATT name="Name"><![CDATA[registerTimeOf Stay]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>
