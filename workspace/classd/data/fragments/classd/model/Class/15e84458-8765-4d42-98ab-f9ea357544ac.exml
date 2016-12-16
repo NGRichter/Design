@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="Attribute" mc="Standard.Attribute" uid="eaf458f1-a7c7-45d7-bddc-33b7853a9478"/>
+          <ID name="CompanyName" mc="Standard.Attribute" uid="eaf458f1-a7c7-45d7-bddc-33b7853a9478"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Attribute]]></ATT>
+            <ATT name="Name"><![CDATA[CompanyName]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -58,8 +58,11 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="dc4a3245-999d-4e5f-ada9-524b9b8aefc8"/>
+        </REFOBJ>
         <OBJECT>
-          <ID name="employee Card" mc="Standard.AssociationEnd" uid="dc4a3245-999d-4e5f-ada9-524b9b8aefc8"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="e010cc51-fbe8-44c7-bcaf-19fa2857b0d4"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -72,16 +75,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[employee Card]]></ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Employee Card" mc="Standard.Class" uid="9bf403fc-c786-4c2e-a30d-4c92faaaa002"/>
-            </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="56d37894-638f-4884-8918-2bd92d4aa485"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="aa124848-edbe-4a0a-8581-8a73fe7a2135"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -89,8 +89,8 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -99,11 +99,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="employee Card" mc="Standard.AssociationEnd" uid="dc4a3245-999d-4e5f-ada9-524b9b8aefc8"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="e010cc51-fbe8-44c7-bcaf-19fa2857b0d4"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="4e60ceb4-4964-4bab-9696-749060d055b7"/>
+                      <ID name="" mc="Standard.Association" uid="2006308b-b551-48d0-836e-177bd2fab0f5"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -115,7 +115,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="4e60ceb4-4964-4bab-9696-749060d055b7"/>
+              <COMPID name="" mc="Standard.Association" uid="2006308b-b551-48d0-836e-177bd2fab0f5"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

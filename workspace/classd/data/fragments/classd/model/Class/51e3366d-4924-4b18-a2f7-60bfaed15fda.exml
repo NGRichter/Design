@@ -58,8 +58,11 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="8683eeed-37ab-47fc-939f-c6477d381a32"/>
+        </REFOBJ>
         <OBJECT>
-          <ID name="payStation" mc="Standard.AssociationEnd" uid="8683eeed-37ab-47fc-939f-c6477d381a32"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="5f991a8f-635e-4e24-8422-7ab5dc12752e"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -67,21 +70,18 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[payStation]]></ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Pay Station" mc="Standard.Class" uid="9f511d05-2fc5-43c0-9d24-cb56bdf18d01"/>
-            </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="f4e21564-65c7-420d-96c5-d35dd1126369"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="6210250d-e5c3-4b99-8a10-034f6c38789c"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -89,8 +89,8 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -99,11 +99,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="payStation" mc="Standard.AssociationEnd" uid="8683eeed-37ab-47fc-939f-c6477d381a32"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="5f991a8f-635e-4e24-8422-7ab5dc12752e"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="01032d74-139e-428c-9a9c-e740dd91e24d"/>
+                      <ID name="" mc="Standard.Association" uid="7f62af5b-5481-46ec-9400-fd8f42382a72"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -115,7 +115,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="01032d74-139e-428c-9a9c-e740dd91e24d"/>
+              <COMPID name="" mc="Standard.Association" uid="7f62af5b-5481-46ec-9400-fd8f42382a72"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

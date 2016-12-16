@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Entry OrdinaryTicket" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Entry SeasonCard" version="4">
   <OBJECT>
-    <ID name="Entry OrdinaryTicket" mc="Standard.Class" uid="6c198064-8284-4016-b273-b97aa8a5c55c"/>
+    <ID name="Entry SeasonCard" mc="Standard.Class" uid="d3968f94-9fd6-4ca5-ad8a-2842f53d45ce"/>
     <PID name="classd" mc="Standard.Package" uid="ea840b13-8f96-499a-9a82-c67dfba6cf66"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,18 +11,18 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Entry OrdinaryTicket]]></ATT>
+      <ATT name="Name"><![CDATA[Entry SeasonCard]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="dfdbe9b5-7205-46d8-8304-62172ec657da"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="5766d12f-2f53-4d1b-8795-313c24cde953"/>
         </REFOBJ>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="c5e0bf1e-d273-4b1a-bfe0-03d2c04ff0af"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="5b4b6176-f39c-4de7-8cce-6bb198b36d88"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -36,7 +36,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="printNewCard" mc="Standard.Component" uid="c0b04bf7-da8b-49d5-be4e-c59272cb971f"/>
+        <COMPID name="setEntryTime" mc="Standard.Component" uid="c100fd95-6b29-44f3-8861-1448dea69158"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
