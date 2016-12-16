@@ -58,9 +58,6 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="8683eeed-37ab-47fc-939f-c6477d381a32"/>
-        </REFOBJ>
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="5f991a8f-635e-4e24-8422-7ab5dc12752e"/>
           <ATTRIBUTES>

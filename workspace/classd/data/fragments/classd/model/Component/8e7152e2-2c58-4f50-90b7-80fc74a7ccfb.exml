@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="setEntryTime" version="4">
   <OBJECT>
-    <ID name="setEntryTime" mc="Standard.Component" uid="c100fd95-6b29-44f3-8861-1448dea69158"/>
-    <PID name="Entry SeasonCard" mc="Standard.Class" uid="d3968f94-9fd6-4ca5-ad8a-2842f53d45ce"/>
+    <ID name="setEntryTime" mc="Standard.Component" uid="8e7152e2-2c58-4f50-90b7-80fc74a7ccfb"/>
+    <PID name="Entry" mc="Standard.Class" uid="575067da-a064-46ba-bbca-763b68ae7db9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

@@ -34,6 +34,7 @@
         <COMPID name="incrementSpotNormal" mc="Standard.Component" uid="9ca93ccd-e192-4f88-a728-f40caa193f0d"/>
         <COMPID name="incrementSpotSpecial" mc="Standard.Component" uid="f24c08e7-5485-495d-9beb-f4d5f0016179"/>
         <COMPID name="isFull" mc="Standard.Component" uid="fac7de11-1d10-422a-b588-bdd7218adbd4"/>
+        <COMPID name="setEntryTime" mc="Standard.Component" uid="8e7152e2-2c58-4f50-90b7-80fc74a7ccfb"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

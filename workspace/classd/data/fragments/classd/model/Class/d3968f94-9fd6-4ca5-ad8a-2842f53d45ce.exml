@@ -35,9 +35,6 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="OwnedElement">
-        <COMPID name="setEntryTime" mc="Standard.Component" uid="c100fd95-6b29-44f3-8861-1448dea69158"/>
-      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
